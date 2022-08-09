@@ -1,0 +1,241 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Element Selectors */
+body {
+    background-color: #d9dcd6;
+}
+
+/* 
+Class Selectors 
+headers has different text and background colors defined by forms of sans-serif text
+*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*
+ Class Selectors 
+ inline block will keep all text or what is defined as h1 to be on the same line
+ */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Class Selectors */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Class Selectors */
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Class Selectors */
+.header section ul {
+    list-style-type: none;
+}
+
+/* Class Selectors */
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Element Selectors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Element Selectors */
+p {
+    font-size: 16px;
+}
+
+/* Class Selectors */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Class Selectors */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Class Selectors */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Class Selectors */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Class Selectors */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Class Selectors */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Class Selectors */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Class Selectors */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Class Selectors */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Class Selectors */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Class Selectors */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Class Selectors */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Class Selectors */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Class Selectors */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Class Selectors */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Class Selectors */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Class Selectors */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Class Selectors */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Class Selectors */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Class Selectors */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Class Selectors */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Class Selectors */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Class Selectors */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Class Selectors */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Class Selectors */
+.footer h2 {
+    font-size: 20px;
+}

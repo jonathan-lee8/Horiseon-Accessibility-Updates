@@ -5,7 +5,7 @@ Improved website's accessibility by ensuring all links are fully functional, the
 ## Installation
 
 Visit repo Horiseon Accessibility Updates from GitHub and clone the repo using either SSH or HTTPs. Once cloned to desired folder, user has access to updates.
-Can follow link here as well: file:///C:/Users/jonat/bootcamp-lectures/modules-hw/module01challenge/Horiseon-Accessibility-Updates/index.html
+Can follow link here as well: https://jonathan-lee8.github.io/Horiseon-Accessibility-Updates/
 
 ## Usage
 
